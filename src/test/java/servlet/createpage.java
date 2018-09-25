@@ -14,6 +14,7 @@ public class createpage extends HttpServlet {
 		
 		res.setContentType("text/html");
 		PrintWriter out=res.getWriter();
+		
 		try
 		{
 			Class.forName("org.postgresql.Driver");
